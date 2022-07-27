@@ -8,15 +8,30 @@ function Navbar() {
           <img src={logo} alt='logo' style={{width:"60px"}}/>
       </div>
       {/* menu */}
-      <div>
-            <ul>
+      
+            <ul className='hidden md:flex'>
               <li>Home</li>
               <li>About</li>
               <li>Skills</li>
               <li>Work</li>
               <li>Contact</li>
             </ul>
+        
+          {/* Hamburger */}
+          <div className='md:hidden'>
+            <FaBars/>
           </div>
+          {/* Mobile menu */}
+            <ul className='absolute top-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'>
+            <li>Home</li>
+              <li>About</li>
+              <li>Skills</li>
+              <li>Work</li>
+              <li>Contact</li>
+            </ul>
+
+          {/* Social Icons */}
+          <div className='hidden'></div>
     </div>
   )
 }
