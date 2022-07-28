@@ -20,7 +20,7 @@ const Home = () => {
           <HiArrowNarrowRight className='ml-2.5'/>
           </span>
           </button>
-        </div>
+        </div>eee
       </div>
 
     </div>
