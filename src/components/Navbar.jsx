@@ -72,16 +72,16 @@ function Navbar() {
           <div className=' hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
               <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                <a className='flex justify-between w-full text-gray-100' href='/'>LinkedIn <FaLinkedin size={30}/></a>
+                <a className='flex justify-between w-full text-gray-100' href='https://www.linkedin.com/in/nikhilkapoor2002?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZX7EfotYQ0ypMWSdWQR52g%3D%3D'>LinkedIn <FaLinkedin size={30}/></a>
               </li>
               <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#363535]'>
                 <a className='flex justify-between w-full text-gray-100' href='/'>GitHub <FaGithub size={30}/></a>
               </li>
               <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ac8ce3] '>
-                <a className='flex justify-between w-full text-gray-100' href='/'>Email <HiOutlineMail size={30}/></a>
+                <a className='flex justify-between w-full text-gray-100' href='mailto:nikhilkapoor.aus21@gmail.com'>Email <HiOutlineMail size={30}/></a>
               </li>
               <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#7c738b]'>
-                <a className='flex justify-between w-full text-gray-100' href='/'>Resume <BsFillPersonLinesFill size={30}/></a>
+                <a className='flex justify-between w-full text-gray-100' href='https://app.luminpdf.com/viewer/62ee98c379858aea543d6a21'>Resume <BsFillPersonLinesFill size={30}/></a>
               </li>
             </ul>
           </div>
