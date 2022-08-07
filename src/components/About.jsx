@@ -12,12 +12,16 @@ const About = () => {
           </div>
           <div></div>
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hey , Thank You for Stopping by.</p>
+          <div className='max-w-[1000px]'>
+            <div className='sm:text-right text-4xl font-bold grid grid-cols-2'>
+              <p>Hi. I'm Clint, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p>I am an aspiring software engineer. I have a keen interest in web development and I recently started working on React JS which is my first project using react components. I am also well acquainted with the knowledge of Tail Wind CSS. I am eagerly willing to learn and work upon the latest technologies.</p>  
+              <p className='py-3 px-5'>I am passionate about building excellent software that improves
+              the lives of those around me. I specialize in creating software
+              for clients ranging from individuals and small-businesses all the
+              way to large enterprise corporations. What would you do if you had
+              a software expert available at your fingertips?</p>  
             </div>
           </div>
       </div>
