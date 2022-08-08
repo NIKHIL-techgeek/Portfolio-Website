@@ -16,22 +16,22 @@ function Navbar() {
       </div>
       {/* menu */}
             <ul className='hidden md:flex'>
-              <li className='hover:underline'>
+              <li className='hover:underline hover:text-4xl hover:text-pink-600'>
               <Link to="home"  smooth={true} duration={500} >
                    Home
               </Link>
               </li>
-              <li className='hover:underline'>
+              <li className='hover:underline hover:text-4xl hover:text-pink-600'>
               <Link to="about"  smooth={true} duration={500} >
                    About
               </Link>
               </li>
-              <li className='hover:underline'>
+              <li className='hover:underline hover:text-4xl hover:text-pink-600'>
               <Link to="skills"  smooth={true} duration={500} >
                    Skills
               </Link>
               </li>
-              <li className='hover:underline'>
+              <li className='hover:underline hover:text-4xl hover:text-pink-600'>
               <Link to="contact"  smooth={true} duration={500} >
                    Contact
               </Link>
