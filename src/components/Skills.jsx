@@ -14,7 +14,7 @@ const Skills = () => {
     <div name='skills' className='bg-[#0a192f] text-gray-300 w-full h-100'>
         {/* container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-            <div>
+            <div className='py-9'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>
                     Skills
                 </p>
