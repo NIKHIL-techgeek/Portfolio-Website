@@ -81,7 +81,7 @@ function Navbar() {
                 <a className='flex justify-between w-full text-gray-100' href='mailto:nikhilkapoor.aus21@gmail.com'>Email <HiOutlineMail size={30}/></a>
               </li>
               <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#7c738b]'>
-                <a className='flex justify-between w-full text-gray-100' href='https://app.luminpdf.com/viewer/63d06a3d3bb067769c0a9027'>Resume <BsFillPersonLinesFill size={30}/></a>
+                <a className='flex justify-between w-full text-gray-100' href='https://app.luminpdf.com/viewer/63d06d8e44bdc3a51c87e547'>Resume <BsFillPersonLinesFill size={30}/></a>
               </li>
             </ul>
           </div>
